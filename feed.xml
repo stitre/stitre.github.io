@@ -3,41 +3,140 @@
     <title>Tiny Studio</title>
     <link href="https://stitre.github.io/feed.xml" rel="self" />
     <link href="https://stitre.github.io" />
-    <updated>2022-11-02T11:08:14+06:00</updated>
+    <updated>2022-11-03T21:37:42+06:00</updated>
     <author>
         <name>Tiny Studio</name>
     </author>
     <id>https://stitre.github.io</id>
 
     <entry>
-        <title>About</title>
+        <title>Раскраски</title>
         <author>
             <name>Tiny Studio</name>
         </author>
-        <link href="https://stitre.github.io/about.html"/>
-        <id>https://stitre.github.io/about.html</id>
+        <link href="https://stitre.github.io/raskraski/"/>
+        <id>https://stitre.github.io/raskraski/</id>
+            <category term="Крафт"/>
 
-        <updated>2022-11-02T11:08:14+06:00</updated>
-            <summary>
-                <![CDATA[
-                    We are a creative collective. We are designers, architects, musicians, filmmakers, writers, engineers and artists. We are tired of coming up with ideas of what we would like to try to do. And started implementing them.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-  <p>
-    We are a creative collective.
-  </p>
+        <updated>2022-11-03T21:37:42+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Шаблоны Notion</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/shablony-notion/"/>
+        <id>https://stitre.github.io/shablony-notion/</id>
+            <category term="Эксперименты"/>
 
-  <p>
-    We are designers, architects, musicians, filmmakers, writers, engineers and artists.
-  </p>
+        <updated>2022-11-03T21:37:13+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Инста пресеты</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/insta-presety/"/>
+        <id>https://stitre.github.io/insta-presety/</id>
+            <category term="Эксперименты"/>
 
-  <p>
-    We are tired of coming up with ideas of what we would like to try to do. And started implementing them.
-  </p>
-            ]]>
-        </content>
+        <updated>2022-11-03T21:36:53+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Кукольные домики</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/kukolnye-domiki/"/>
+        <id>https://stitre.github.io/kukolnye-domiki/</id>
+            <category term="Крафт"/>
+
+        <updated>2022-11-03T21:36:41+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Бетонные горшки</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/betonnye-gorshki/"/>
+        <id>https://stitre.github.io/betonnye-gorshki/</id>
+            <category term="Крафт"/>
+
+        <updated>2022-11-03T21:36:26+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Шелкография</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/shelkografiya/"/>
+        <id>https://stitre.github.io/shelkografiya/</id>
+            <category term="Крафт"/>
+
+        <updated>2022-11-03T21:36:11+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Наборы для кофе</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/nabory-dlya-kofe/"/>
+        <id>https://stitre.github.io/nabory-dlya-kofe/</id>
+            <category term="Крафт"/>
+
+        <updated>2022-11-03T21:35:42+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Тревел Гайды</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/trevel-gaydy/"/>
+        <id>https://stitre.github.io/trevel-gaydy/</id>
+            <category term="Контент"/>
+
+        <updated>2022-11-03T21:35:11+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Вид сверху</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/vid-sverhu/"/>
+        <id>https://stitre.github.io/vid-sverhu/</id>
+            <category term="Контент"/>
+
+        <updated>2022-11-03T21:34:54+06:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Анимация</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/animaciya/"/>
+        <id>https://stitre.github.io/animaciya/</id>
+            <category term="Дизайн"/>
+
+        <updated>2022-11-03T21:34:29+06:00</updated>
+            <summary></summary>
+        <content></content>
     </entry>
 </feed>
