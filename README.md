@@ -1,2 +1,0 @@
-# stitre.github.io
-website

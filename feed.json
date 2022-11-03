@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Tiny Studio",
+    "description": "",
+    "home_page_url": "https://stitre.github.io",
+    "feed_url": "https://stitre.github.io/feed.json",
+    "user_comment": "",
+    "icon": "https://stitre.github.io/media/website/tiny-studio-black.svg",
+    "author": {
+        "name": "Tiny Studio"
+    },
+    "items": [
+        {
+            "id": "https://stitre.github.io/about.html",
+            "url": "https://stitre.github.io/about.html",
+            "title": "About",
+            "summary": "We are a creative collective. We are designers, architects, musicians, filmmakers, writers, engineers and artists. We are tired of coming up with ideas of what we would like to try to do. And started implementing them.",
+            "content_html": "\n  <p>\n    We are a creative collective.\n  </p>\n\n  <p>\n    We are designers, architects, musicians, filmmakers, writers, engineers and artists.\n  </p>\n\n  <p>\n    We are tired of coming up with ideas of what we would like to try to do. And started implementing them.\n  </p>",
+            "author": {
+                "name": "Tiny Studio"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-11-02T11:08:14+06:00",
+            "date_modified": "2022-11-02T11:08:14+06:00"
+        }
+    ]
+}

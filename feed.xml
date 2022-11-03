@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Tiny Studio</title>
+    <link href="https://stitre.github.io/feed.xml" rel="self" />
+    <link href="https://stitre.github.io" />
+    <updated>2022-11-02T11:08:14+06:00</updated>
+    <author>
+        <name>Tiny Studio</name>
+    </author>
+    <id>https://stitre.github.io</id>
+
+    <entry>
+        <title>About</title>
+        <author>
+            <name>Tiny Studio</name>
+        </author>
+        <link href="https://stitre.github.io/about.html"/>
+        <id>https://stitre.github.io/about.html</id>
+
+        <updated>2022-11-02T11:08:14+06:00</updated>
+            <summary>
+                <![CDATA[
+                    We are a creative collective. We are designers, architects, musicians, filmmakers, writers, engineers and artists. We are tired of coming up with ideas of what we would like to try to do. And started implementing them.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    We are a creative collective.
+  </p>
+
+  <p>
+    We are designers, architects, musicians, filmmakers, writers, engineers and artists.
+  </p>
+
+  <p>
+    We are tired of coming up with ideas of what we would like to try to do. And started implementing them.
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
