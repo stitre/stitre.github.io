@@ -13,7 +13,10 @@
         {
             "id": "https://stitre.github.io/raskraski/",
             "url": "https://stitre.github.io/raskraski/",
-            "title": "Раскраски",
+            "title": "Раскраски по персонажам студии PIXAR",
+            "summary": "Книжка—раскраска, основанная на знакомых иллюстрациях персонажей и сцен — отличный подарок для детей и взрослых. На страницах этой книги вас ждут&hellip;",
+            "content_html": "<p>Книжка—раскраска, основанная на знакомых иллюстрациях персонажей и сцен — отличный подарок для детей и взрослых.</p>\n<p>На страницах этой книги вас ждут любимые, знакомые с детства, персонажи. Это веселая книжка-раскраска для всех, кто любит мультфильмы. Идеальный подарок на все случаи жизни.</p>\n<div class=\"gallery-wrapper gallery-wrapper--wide\"><div class=\"gallery\"  data-is-empty=\"false\" data-translation=\"Add images\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://stitre.github.io/media/posts/13/gallery/Example-1.png\" data-size=\"1881x1080\"><img loading=\"lazy\" src=\"https://stitre.github.io/media/posts/13/gallery/Example-1-thumbnail.webp\" alt=\"Раскраски по персонажам PIXAR\" width=\"720\" height=\"413\"></a>\n<figcaption>Раскраски по персонажам PIXAR</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://stitre.github.io/media/posts/13/gallery/Example-2.png\" data-size=\"1881x1080\"><img loading=\"lazy\" src=\"https://stitre.github.io/media/posts/13/gallery/Example-2-thumbnail.webp\" alt=\"Раскраски по персонажам PIXAR\" width=\"720\" height=\"413\"></a>\n<figcaption>Раскраски по персонажам PIXAR</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://stitre.github.io/media/posts/13/gallery/Example-3.png\" data-size=\"1881x1080\"><img loading=\"lazy\" src=\"https://stitre.github.io/media/posts/13/gallery/Example-3-thumbnail.webp\" alt=\"Раскраски по персонажам PIXAR\" width=\"720\" height=\"413\"></a>\n<figcaption>Раскраски по персонажам PIXAR</figcaption>\n</figure>\n</div></div>\n<p>Купив книгу, вы обеспечите себе занятные вечера вместе с близкими, благодаря нескольким фактам:</p>\n<ol>\n<li>Иллюстрации высокого качества, каждая из которых сделана с любовью к студии и ее персонажам</li>\n<li>Здесь все ваши любимые персонажи и сцены из мультфильмов</li>\n<li>Для раскраски можно использовать любые типы ручек, кистей, фломастеров, карандашей или мелков. И даже акварель!</li>\n<li>Отлично подходит для любого уровня подготовки</li>\n</ol>\n<p><a href=\"https://www.amazon.com/dp/B09KN7YBRN\" title=\"Раскраска по персонажам PIXAR\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Купить книгу на Amazon</a></p>",
+            "image": "https://stitre.github.io/media/posts/13/kelly-brito-lI1z94nf0RM-unsplash.jpg",
             "author": {
                 "name": "Tiny Studio"
             },
@@ -21,124 +24,21 @@
                    "Крафт"
             ],
             "date_published": "2022-11-03T21:37:42+06:00",
-            "date_modified": "2022-11-03T21:37:42+06:00"
+            "date_modified": "2022-11-25T23:39:31+06:00"
         },
         {
-            "id": "https://stitre.github.io/shablony-notion/",
-            "url": "https://stitre.github.io/shablony-notion/",
-            "title": "Шаблоны Notion",
+            "id": "https://stitre.github.io/about/",
+            "url": "https://stitre.github.io/about/",
+            "title": "О нас",
+            "summary": "Мы –&nbsp;маленькая студия с большими амбициями. Творческий коллектив. Дизайнеры, художники, иллюстраторы, музыканты, кинематографисты, писатели и инженеры.",
+            "content_html": "\n  <p>\n    Мы –&nbsp;маленькая студия с большими амбициями. Творческий коллектив. Дизайнеры, художники, иллюстраторы, музыканты, кинематографисты, писатели и инженеры.\n  </p>\n\n  <p>\n    В спектр наших услуг входит дизайн и разработка цифровых продуктов, копирайтинг, различные виды съемок, монтаж и анимация.\n  </p>\n\n  <p>\n    У нас есть опыт взаимодействия как с международными агентствами и&nbsp;разработчиками игр, так и с локальными студиями разработки и мобильными операторами.\n  </p>\n\n  <p>\n    Мы устали просто придумывать блестящие идеи проектов. И начали их реализовывать.\n  </p>",
             "author": {
                 "name": "Tiny Studio"
             },
             "tags": [
-                   "Эксперименты"
             ],
-            "date_published": "2022-11-03T21:37:13+06:00",
-            "date_modified": "2022-11-03T21:37:13+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/insta-presety/",
-            "url": "https://stitre.github.io/insta-presety/",
-            "title": "Инста пресеты",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Эксперименты"
-            ],
-            "date_published": "2022-11-03T21:36:53+06:00",
-            "date_modified": "2022-11-03T21:36:53+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/kukolnye-domiki/",
-            "url": "https://stitre.github.io/kukolnye-domiki/",
-            "title": "Кукольные домики",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Крафт"
-            ],
-            "date_published": "2022-11-03T21:36:41+06:00",
-            "date_modified": "2022-11-03T21:36:41+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/betonnye-gorshki/",
-            "url": "https://stitre.github.io/betonnye-gorshki/",
-            "title": "Бетонные горшки",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Крафт"
-            ],
-            "date_published": "2022-11-03T21:36:26+06:00",
-            "date_modified": "2022-11-03T21:36:26+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/shelkografiya/",
-            "url": "https://stitre.github.io/shelkografiya/",
-            "title": "Шелкография",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Крафт"
-            ],
-            "date_published": "2022-11-03T21:36:11+06:00",
-            "date_modified": "2022-11-03T21:36:11+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/nabory-dlya-kofe/",
-            "url": "https://stitre.github.io/nabory-dlya-kofe/",
-            "title": "Наборы для кофе",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Крафт"
-            ],
-            "date_published": "2022-11-03T21:35:42+06:00",
-            "date_modified": "2022-11-03T21:35:42+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/trevel-gaydy/",
-            "url": "https://stitre.github.io/trevel-gaydy/",
-            "title": "Тревел Гайды",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Контент"
-            ],
-            "date_published": "2022-11-03T21:35:11+06:00",
-            "date_modified": "2022-11-03T21:35:11+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/vid-sverhu/",
-            "url": "https://stitre.github.io/vid-sverhu/",
-            "title": "Вид сверху",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Контент"
-            ],
-            "date_published": "2022-11-03T21:34:54+06:00",
-            "date_modified": "2022-11-03T21:34:54+06:00"
-        },
-        {
-            "id": "https://stitre.github.io/animaciya/",
-            "url": "https://stitre.github.io/animaciya/",
-            "title": "Анимация",
-            "author": {
-                "name": "Tiny Studio"
-            },
-            "tags": [
-                   "Дизайн"
-            ],
-            "date_published": "2022-11-03T21:34:29+06:00",
-            "date_modified": "2022-11-03T21:34:29+06:00"
+            "date_published": "2022-11-02T11:08:14+06:00",
+            "date_modified": "2022-11-25T23:21:37+06:00"
         }
     ]
 }

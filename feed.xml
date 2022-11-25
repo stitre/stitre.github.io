@@ -3,140 +3,89 @@
     <title>Tiny Studio</title>
     <link href="https://stitre.github.io/feed.xml" rel="self" />
     <link href="https://stitre.github.io" />
-    <updated>2022-11-03T21:37:42+06:00</updated>
+    <updated>2022-11-25T23:39:31+06:00</updated>
     <author>
         <name>Tiny Studio</name>
     </author>
     <id>https://stitre.github.io</id>
 
     <entry>
-        <title>Раскраски</title>
+        <title>Раскраски по персонажам студии PIXAR</title>
         <author>
             <name>Tiny Studio</name>
         </author>
         <link href="https://stitre.github.io/raskraski/"/>
         <id>https://stitre.github.io/raskraski/</id>
+        <media:content url="https://stitre.github.io/media/posts/13/kelly-brito-lI1z94nf0RM-unsplash.jpg" medium="image" />
             <category term="Крафт"/>
 
-        <updated>2022-11-03T21:37:42+06:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2022-11-25T23:39:31+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://stitre.github.io/media/posts/13/kelly-brito-lI1z94nf0RM-unsplash.jpg" alt="" />
+                    Книжка—раскраска, основанная на знакомых иллюстрациях персонажей и сцен — отличный подарок для детей и взрослых. На страницах этой книги вас ждут&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://stitre.github.io/media/posts/13/kelly-brito-lI1z94nf0RM-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Книжка—раскраска, основанная на знакомых иллюстрациях персонажей и сцен — отличный подарок для детей и взрослых.</p>
+<p>На страницах этой книги вас ждут любимые, знакомые с детства, персонажи. Это веселая книжка-раскраска для всех, кто любит мультфильмы. Идеальный подарок на все случаи жизни.</p>
+<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://stitre.github.io/media/posts/13/gallery/Example-1.png" data-size="1881x1080"><img loading="lazy" src="https://stitre.github.io/media/posts/13/gallery/Example-1-thumbnail.webp" alt="Раскраски по персонажам PIXAR" width="720" height="413"></a>
+<figcaption>Раскраски по персонажам PIXAR</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://stitre.github.io/media/posts/13/gallery/Example-2.png" data-size="1881x1080"><img loading="lazy" src="https://stitre.github.io/media/posts/13/gallery/Example-2-thumbnail.webp" alt="Раскраски по персонажам PIXAR" width="720" height="413"></a>
+<figcaption>Раскраски по персонажам PIXAR</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://stitre.github.io/media/posts/13/gallery/Example-3.png" data-size="1881x1080"><img loading="lazy" src="https://stitre.github.io/media/posts/13/gallery/Example-3-thumbnail.webp" alt="Раскраски по персонажам PIXAR" width="720" height="413"></a>
+<figcaption>Раскраски по персонажам PIXAR</figcaption>
+</figure>
+</div></div>
+<p>Купив книгу, вы обеспечите себе занятные вечера вместе с близкими, благодаря нескольким фактам:</p>
+<ol>
+<li>Иллюстрации высокого качества, каждая из которых сделана с любовью к студии и ее персонажам</li>
+<li>Здесь все ваши любимые персонажи и сцены из мультфильмов</li>
+<li>Для раскраски можно использовать любые типы ручек, кистей, фломастеров, карандашей или мелков. И даже акварель!</li>
+<li>Отлично подходит для любого уровня подготовки</li>
+</ol>
+<p><a href="https://www.amazon.com/dp/B09KN7YBRN" title="Раскраска по персонажам PIXAR" target="_blank" rel="nofollow noopener noreferrer">Купить книгу на Amazon</a></p>
+            ]]>
+        </content>
     </entry>
     <entry>
-        <title>Шаблоны Notion</title>
+        <title>О нас</title>
         <author>
             <name>Tiny Studio</name>
         </author>
-        <link href="https://stitre.github.io/shablony-notion/"/>
-        <id>https://stitre.github.io/shablony-notion/</id>
-            <category term="Эксперименты"/>
+        <link href="https://stitre.github.io/about/"/>
+        <id>https://stitre.github.io/about/</id>
 
-        <updated>2022-11-03T21:37:13+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Инста пресеты</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/insta-presety/"/>
-        <id>https://stitre.github.io/insta-presety/</id>
-            <category term="Эксперименты"/>
+        <updated>2022-11-25T23:21:37+06:00</updated>
+            <summary>
+                <![CDATA[
+                    Мы –&nbsp;маленькая студия с большими амбициями. Творческий коллектив. Дизайнеры, художники, иллюстраторы, музыканты, кинематографисты, писатели и инженеры.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Мы –&nbsp;маленькая студия с большими амбициями. Творческий коллектив. Дизайнеры, художники, иллюстраторы, музыканты, кинематографисты, писатели и инженеры.
+  </p>
 
-        <updated>2022-11-03T21:36:53+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Кукольные домики</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/kukolnye-domiki/"/>
-        <id>https://stitre.github.io/kukolnye-domiki/</id>
-            <category term="Крафт"/>
+  <p>
+    В спектр наших услуг входит дизайн и разработка цифровых продуктов, копирайтинг, различные виды съемок, монтаж и анимация.
+  </p>
 
-        <updated>2022-11-03T21:36:41+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Бетонные горшки</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/betonnye-gorshki/"/>
-        <id>https://stitre.github.io/betonnye-gorshki/</id>
-            <category term="Крафт"/>
+  <p>
+    У нас есть опыт взаимодействия как с международными агентствами и&nbsp;разработчиками игр, так и с локальными студиями разработки и мобильными операторами.
+  </p>
 
-        <updated>2022-11-03T21:36:26+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Шелкография</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/shelkografiya/"/>
-        <id>https://stitre.github.io/shelkografiya/</id>
-            <category term="Крафт"/>
-
-        <updated>2022-11-03T21:36:11+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Наборы для кофе</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/nabory-dlya-kofe/"/>
-        <id>https://stitre.github.io/nabory-dlya-kofe/</id>
-            <category term="Крафт"/>
-
-        <updated>2022-11-03T21:35:42+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Тревел Гайды</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/trevel-gaydy/"/>
-        <id>https://stitre.github.io/trevel-gaydy/</id>
-            <category term="Контент"/>
-
-        <updated>2022-11-03T21:35:11+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Вид сверху</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/vid-sverhu/"/>
-        <id>https://stitre.github.io/vid-sverhu/</id>
-            <category term="Контент"/>
-
-        <updated>2022-11-03T21:34:54+06:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Анимация</title>
-        <author>
-            <name>Tiny Studio</name>
-        </author>
-        <link href="https://stitre.github.io/animaciya/"/>
-        <id>https://stitre.github.io/animaciya/</id>
-            <category term="Дизайн"/>
-
-        <updated>2022-11-03T21:34:29+06:00</updated>
-            <summary></summary>
-        <content></content>
+  <p>
+    Мы устали просто придумывать блестящие идеи проектов. И начали их реализовывать.
+  </p>
+            ]]>
+        </content>
     </entry>
 </feed>
