@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://stitre.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://stitre.github.io/</loc>
+</url>
+<url>
+<loc>https://stitre.github.io/about/</loc>
+<lastmod>2022-11-25T23:21:37+06:00</lastmod>
+</url>
+<url>
+<loc>https://stitre.github.io/raskraski/</loc>
+<lastmod>2022-11-25T23:39:31+06:00</lastmod>
+<image:image>
+<image:loc>https://stitre.github.io/media/posts/13/kelly-brito-lI1z94nf0RM-unsplash.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://stitre.github.io/media/posts/13/gallery/Example-1-thumbnail.webp</image:loc>
+<image:title><![CDATA[Раскраски по персонажам PIXAR]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://stitre.github.io/media/posts/13/gallery/Example-2-thumbnail.webp</image:loc>
+<image:title><![CDATA[Раскраски по персонажам PIXAR]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://stitre.github.io/media/posts/13/gallery/Example-3-thumbnail.webp</image:loc>
+<image:title><![CDATA[Раскраски по персонажам PIXAR]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://stitre.github.io/shelkografiya/</loc>
+<lastmod>2022-11-28T12:21:05+06:00</lastmod>
+<image:image>
+<image:loc>https://stitre.github.io/media/posts/8/d-ng-ph-c-h-i-tri-u-euOA6oQIfIc-unsplash.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>
