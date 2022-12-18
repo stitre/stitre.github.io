@@ -1,36 +1,27 @@
-// Sticky menu
-var new_scroll_position = 0;
-var last_scroll_position;
-var header = document.getElementById("js-header");
-var stickyMenu = document.getElementById("js-navbar-menu");
+ // Search overlay
+(function () {
+    const searchButton = document.querySelector('.search-btn');
+          searchClose = document.querySelector('.search__close');
+          searchOverlay = document.querySelector('.search__overlay');
+          searchInput = document.querySelector('[type="search"]');
 
-window.addEventListener('scroll', function (e) {
-	last_scroll_position = window.scrollY;
+    if (searchButton) {
+        searchButton.addEventListener('click', function (e) {
+            searchOverlay.classList.add('expanded');
 
-	// Scrolling down
-	if (new_scroll_position < last_scroll_position && last_scroll_position > 40) {
-		header.classList.remove("is-visible");
-		header.classList.add("is-hidden");
-
-		// Scrolling up
-	} else if (new_scroll_position > last_scroll_position) {
-		header.classList.remove("is-hidden");
-		header.classList.add("is-visible");
-		if (stickyMenu) {
-			stickyMenu.classList.add("is-sticky");
-		}
-	}
-
-	if (last_scroll_position < 1) {
-		header.classList.remove("is-visible");
-
-		if (stickyMenu) {
-			stickyMenu.classList.remove("is-sticky");
-		}
-	}
-
-	new_scroll_position = last_scroll_position;
-});
+            if (searchInput) {
+                setTimeout(function() {
+                    if (searchOverlay.classList.contains('expanded')) {
+                        searchInput.focus();
+                    }
+                }, 60);  
+            } 
+        });
+        searchClose.addEventListener('click', function (e) {
+            searchOverlay.classList.remove('expanded');
+        });
+    }
+})();
 
 // Dropdown menu
 (function (menuConfig) {
@@ -461,36 +452,6 @@ window.addEventListener('scroll', function (e) {
     init();
 })(window.publiiThemeMenuConfig);
 
-// Load comments
-var comments = document.getElementById("js-comments");  
-   if (comments) {
-      comments.addEventListener("click", function() {   
-          comments.classList.toggle("is-hidden");      
-             var container = document.getElementById("js-comments__inner");   
-             container.classList.toggle("is-visible");  
-      });
- }
-
-// Load search input area
-var searchButton = document.querySelector(".js-search-btn");
-    searchOverlay = document.querySelector(".js-search-overlay");
-    searchClose = document.querySelector(".js-search-close");
-    searchInput = document.querySelector("[type='search']");
-
-if (searchButton) {
-    searchButton.addEventListener("click", function () {        
-        searchOverlay.classList.add("expanded");
-        if (searchInput) {
-            setTimeout(function() { 
-                searchInput.focus(); 
-            }, 60);     
-		}   
-    });
-    
-    searchClose.addEventListener("click", function () {
-        searchOverlay.classList.remove('expanded');
-    });
-}
 
 // Share buttons pop-up
 (function () {
@@ -551,25 +512,6 @@ if (searchButton) {
         return !!popup;
     }
 })();
-
-// Back to top 
-var backToTopButton = document.getElementById("backToTop");
-if (backToTopButton) {
-   window.onscroll = function() {backToTopScrollFunction()};
-
-   function backToTopScrollFunction() {
-   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-      backToTopButton.classList.add("is-visible");
-   } else {
-      backToTopButton.classList.remove("is-visible");
-     }
-   }
-
-   function backToTopFunction() {
-     document.body.scrollTop = 0;
-     document.documentElement.scrollTop = 0;
-   };
-}
 
 // Responsive embeds script
 (function () {
