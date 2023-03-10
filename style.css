@@ -1,0 +1,174 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;700&display=swap');
+@font-face {
+  font-family: 'Deco';
+  src: url('CustodiaDeco.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+html {
+  background-color: #F9F9F9;
+  color: #111;
+}
+
+body .container {
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  max-width: 960px;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clear {
+  width: auto;
+}
+
+.logo {
+  width: 9em;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  max-width: 64%;
+}
+
+h2 {
+  font-family: 'Deco', monospace;
+  text-transform: uppercase;
+  font-size: 5vw;
+  max-width: 64%;
+}
+
+b {
+  font-weight: 700;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+.block {
+  text-decoration: none!important;
+  color: inherit;
+}
+
+.card {
+  max-width: 24em;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.card,
+.card-body {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-footer {
+  border-top: none;
+  border-bottom-left-radius: 8px!important;
+  border-bottom-right-radius: 8px!important;
+}
+
+.special {
+  position: relative;
+  display: inline-block;
+}
+
+.special:after,
+.special:before {
+  opacity: 1;
+  content: 'i';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font: inherit;
+}
+
+.special:before {
+  color: #FF6600;
+  clip: rect(auto, auto, 0.3em, auto);
+}
+
+.special:after {
+  clip: rect(0.3em, auto, auto, auto);
+}
+
+.special i {
+  font: inherit;
+  opacity: 0;
+}
+
+ul li a.active {
+  color: #FF6600!important;
+}
+
+ul li a:hover {
+  color: rgba(255, 102, 0, .8)!important;
+}
+
+hr {
+  color: #FF6600;
+  opacity: .75;
+}
+
+.aboutus > .container > .row {
+  margin-top: 60vh;
+}
+
+.whatwedo > .container > .row {
+  margin-top: 28vh;
+}
+
+.contacts > .container > .row {
+  margin-top: 64vh;
+}
+@media screen and (max-width: 374px) {
+  .aboutus > .container > .row {
+    margin-top: 48vh;
+  }
+
+  .whatwedo > .container > .row {
+    margin-top: 0;
+  }
+
+  .contacts > .container > .row {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 374px) and (max-width: 768px) {
+  
+  .onepage-pagination {
+    right: 1vw;
+    top: 45vh;
+  }
+
+  .aboutus > .container > .row {
+    margin-top: 56vh;
+  }
+
+  .whatwedo > .container > .row {
+    margin-top: 0;
+  }
+
+  .contacts > .container > .row {
+    margin-top: 64vh;
+  }
+}
