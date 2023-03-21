@@ -1,9 +1,7 @@
 @import url( 'https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;700&display=swap');
-@font-face {
-  font-family: 'Deco';
-  src: url('CustodiaDeco.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,8 +29,19 @@ body .container {
   margin: 0 auto;
 }
 
-.clear {
-  width: auto;
+.contacts > .container > .row,
+.wearestudio > .container > .row {
+  margin-top: 40vh;
+}
+
+.section {
+  padding-top: 10vh;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.section.is-visible {
+  opacity: 1;
 }
 
 .logo {
@@ -47,7 +56,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Deco', monospace;
+  font-family: 'Overpass Mono', monospace;
   text-transform: uppercase;
   font-size: 5vw;
   max-width: 64%;
@@ -126,49 +135,4 @@ ul li a:hover {
 hr {
   color: #FF6600;
   opacity: .75;
-}
-
-.aboutus > .container > .row {
-  margin-top: 60vh;
-}
-
-.whatwedo > .container > .row {
-  margin-top: 28vh;
-}
-
-.contacts > .container > .row {
-  margin-top: 64vh;
-}
-@media screen and (max-width: 374px) {
-  .aboutus > .container > .row {
-    margin-top: 48vh;
-  }
-
-  .whatwedo > .container > .row {
-    margin-top: 0;
-  }
-
-  .contacts > .container > .row {
-    margin-top: 0;
-  }
-}
-
-@media screen and (min-width: 374px) and (max-width: 768px) {
-  
-  .onepage-pagination {
-    right: 1vw;
-    top: 45vh;
-  }
-
-  .aboutus > .container > .row {
-    margin-top: 56vh;
-  }
-
-  .whatwedo > .container > .row {
-    margin-top: 0;
-  }
-
-  .contacts > .container > .row {
-    margin-top: 64vh;
-  }
 }
