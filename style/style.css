@@ -1,26 +1,28 @@
-@import url( 'https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;700&display=swap');
+body.light {
+  --accent-color: #ff6600;
+  --background-color: #fbfbfd;
+  --text-color: #161617;
+  --secondary-text-color: #86868b;
+}
+
+body.dark {
+  --accent-color: #ff6600;
+  --background-color: #161617;
+  --text-color: #fbfbfd;
+  --secondary-text-color: #86868b;
+}
 
 html {
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 body {
-  position: relative;
-  font-family: 'Overpass Mono', monospace;
-  font-size: 1em;
-  -webkit-font-smoothing: antialiased;
-}
-
-body,
-html {
-  background-color: #F9F9F9;
-  color: #111;
-}
-
-body .container {
-  margin-top: 6vw;
-  margin-bottom: 6vw;
-  max-width: 960px;
+  font-family: var(--bs-font-sans-serif);
+  background-color: var(--background-color);
+  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  overflow-x: hidden;
 }
 
 .main {
@@ -29,9 +31,24 @@ body .container {
   margin: 0 auto;
 }
 
+.container {
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  max-width: 960px;
+}
+
 .contacts > .container > .row,
 .wearestudio > .container > .row {
   margin-top: 30vh;
+}
+
+.section > .container > .row:first-of-type {
+  margin-bottom: 16vh;
+}
+
+.contacts > .container > .row:first-of-type,
+.wearestudio > .container > .row:first-of-type {
+  margin-bottom: 0;
 }
 
 .section {
@@ -53,45 +70,31 @@ h1 {
   font-size: 6vh;
   font-weight: 700;
   max-width: 64%;
+  color: var(--text-color);
 }
 
 h2 {
-  font-family: 'Overpass Mono', monospace;
-  text-transform: uppercase;
-  font-size: 5vh;
+  color: var(--text-color);
+  font-size: 12vh;
+  font-weight: 700;
   max-width: 64%;
+  letter-spacing: -1.44px;
+}
+
+p {
+  font-size: 1.2em;
+  color: var(--secondary-text-color);
+  font-weight: 600;
 }
 
 b {
-  font-weight: 700;
+  color: var(--text-color);
+  font-weight: 600;
 }
 
-a {
-  cursor: pointer;
-  color: inherit;
-}
-
-.block {
-  text-decoration: none!important;
-  color: inherit;
-}
-
-.card {
-  max-width: 24em;
-  border: none;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
-}
-
-.card,
-.card-body {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.card-footer {
-  border-top: none;
-  border-bottom-left-radius: 8px!important;
-  border-bottom-right-radius: 8px!important;
+small {
+  color: var(--secondary-text-color);
+  font-weight: 400;
 }
 
 .special {
@@ -102,7 +105,7 @@ a {
 .special:after,
 .special:before {
   opacity: 1;
-  content: 'i';
+  content: "i";
   display: block;
   position: absolute;
   top: 0;
@@ -111,12 +114,12 @@ a {
 }
 
 .special:before {
-  color: #FF6600;
-  clip: rect(auto, auto, 0.3em, auto);
+  color: var(--accent-color);
+  clip: rect(auto, auto, 0.4em, auto);
 }
 
 .special:after {
-  clip: rect(0.3em, auto, auto, auto);
+  clip: rect(0.4em, auto, auto, auto);
 }
 
 .special i {
@@ -124,18 +127,44 @@ a {
   opacity: 0;
 }
 
-ul li a.active {
-  color: #FF6600!important;
-}
-
-ul li a:hover {
-  color: rgba(255, 102, 0, .8)!important;
-}
-
 hr {
-  color: #FF6600;
-  opacity: .75;
+  color: var(--accent-color);
+  opacity: 0.72;
 }
+
+a {
+  color: var(--accent-color);
+  opacity: 0.72;
+  text-decoration: none;
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color);
+  transition: width 0.2s ease-in-out;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
+a:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icons {
+  color: var(--text-color);
+  max-width: 12vh;
+  margin: 6vh 0;
+}
+
 @media screen and (min-width: 767px) {
   .contacts > .container > .row,
   .wearestudio > .container > .row {
