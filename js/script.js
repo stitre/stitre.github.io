@@ -23,7 +23,7 @@ const changeOpacity = () => {
     } else {
       // Condition for larger screens
       if (
-        scrollTop >= sectionTop - windowHeight + sectionHeight / 2 &&
+        scrollTop >= sectionTop - windowHeight + sectionHeight / 3.2 &&
         scrollTop < sectionTop + sectionHeight
       ) {
         section.classList.add("is-visible");
@@ -52,7 +52,7 @@ window.addEventListener("scroll", () => {
   } else if (window.scrollY > sections[sections.length - 2].offsetTop) {
     body.classList.remove("dark");
     body.classList.add("light");
-  } else if (window.scrollY > 656) {
+  } else if (window.scrollY > 360) {
     body.classList.remove("light");
     body.classList.add("dark");
   } else {
