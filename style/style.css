@@ -37,10 +37,27 @@ body {
   max-width: 960px;
 }
 
+.header {
+  transform: scale(1.05);
+  opacity: 0;
+  transition: transform .5s ease-out, opacity 0.5s ease-out;
+}
+
+.header.fade-in {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.header.fade-out {
+  transform: scale(.95);
+  opacity: 0;
+}
+
 .contacts>.container>.row,
 .wearestudio>.container>.row {
   margin-top: 30vh;
 }
+
 .contacts>.container>.row {
   padding-bottom: 8vh;
 }
@@ -159,6 +176,17 @@ a.details::before {
   height: 1px;
 }
 
+a.no-style {
+  text-decoration: none;
+  text-transform: none;
+  background-color: transparent;
+}
+
+a.no-style::before {
+  background-color: transparent;
+  transition: none;
+}
+
 .icons {
   color: var(--text-color);
   max-width: 12vh;
@@ -172,4 +200,3 @@ a.details::before {
     margin-top: 40vh;
   }
 }
-

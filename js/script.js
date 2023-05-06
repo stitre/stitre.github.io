@@ -1,3 +1,22 @@
+// Fade & Scale Header
+
+const header = document.querySelector('.header');
+const headerPosition = 260;
+
+window.addEventListener('load', () => {
+  header.classList.add('fade-in');
+});
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > headerPosition) {
+    header.classList.remove('fade-in');
+    header.classList.add('fade-out');
+  } else {
+    header.classList.remove('fade-out');
+    header.classList.add('fade-in');
+  }
+});
+
 // Define all the sections
 const sections = document.querySelectorAll("section");
 
